@@ -1,0 +1,16 @@
+package project;
+
+import java.util.Scanner;
+
+public class test {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner ch = new Scanner(System.in);
+				String inp = null;
+		
+		System.out.println("Hello name is Ro"+inp);
+		String inp1 = ch.nextLine();
+	}
+}

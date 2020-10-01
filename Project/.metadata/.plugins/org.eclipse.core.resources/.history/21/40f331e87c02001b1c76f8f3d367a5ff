@@ -1,0 +1,22 @@
+package project;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome to Lockers Pvt. Ltd. File handling application \nBy - Rohan Purushothama");
+		System.out.println("Please click on any key to continue");	
+		
+		try {
+			System.in.read();
+			
+			System.out.println("hello");
+		}
+		catch(Exception e) {
+		
+	}
+	
+}
+}

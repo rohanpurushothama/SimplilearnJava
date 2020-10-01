@@ -1,0 +1,35 @@
+package project;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class edit_file {
+	
+	public static void main(String[] args) {
+		
+		Scanner ip = new Scanner (System.in);
+		boolean result;
+		
+		String new_filename;
+		File new_file = new File("C:\\Users\\rohan\\Desktop\\NEWCREATES\\"+new_filename+".txt");
+		try
+		{
+			result = new_file.createNewFile();
+			if(result) {
+				System.out.println("File has been created" +new_filename);
+			}
+			else {
+				System.out.println("File already exists in the folder");
+			}
+		}
+		catch (IOException e) {
+			System.out.println(e);
+		}
+		
+		
+		
+		
+	}
+
+}
